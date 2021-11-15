@@ -6,5 +6,6 @@ def print_till_zero(n):
         print(n)
         n -= 1
         return print_till_zero(n)
+    
 
 print_till_zero(5)
