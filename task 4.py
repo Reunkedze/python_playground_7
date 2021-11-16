@@ -1,6 +1,5 @@
-def max_in(massive, counter):
+def max_in(massive):
     if massive[0] == max(massive):
-        return counter
+        return 1
     else:
-        return max_in(massive[1:], counter + 1)
-        
+        return 1 + max_in(massive[1:])
